@@ -1,0 +1,76 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2021-06-15, 21:08:29
+    Author     : Acer
+*/
+
+.left-menu{
+    height: calc(100vh - 55px); 
+    position: fixed;
+    z-index: 1019;
+    width: 200px;
+        height: 100vh;
+}
+
+.left-menu-nav{
+    font-size: 14px;
+    position: relative;
+    flex: 1;
+    width: 200px;
+    background: #485779;
+    height: calc(100vh - 55px); 
+}
+
+.left-menu-nav nav{
+    width: 200px;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 0;
+
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    height: calc(100vh - 55px); 
+}
+
+.left-menu-title{
+    padding: .75rem 1rem;
+    font-size: 80%;
+    font-weight: 700;
+    color: #e4e7ea;
+    text-transform: uppercase;
+}
+
+.left-menu-item{
+    width: 100%;
+    position: relative;
+    margin: 0;
+    transition: background .3s ease-in-out;
+}
+
+.left-menu-link{
+    display: block;
+    padding: .75rem 1rem;
+    color: #fff;
+    text-decoration: none;
+    background: transparent;
+}
+
+.left-menu-link:hover{
+    color: #fff;
+    background: #4273fa;
+}
+
+.left-menu-icon{
+    display: inline-block;
+    width: 1.09375rem;
+    margin: 0 .5rem 0 0;
+    font-size: .875rem;
+    color: #73818f;
+    text-align: center;
+}
